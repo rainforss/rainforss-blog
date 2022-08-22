@@ -1,0 +1,11 @@
+---
+import DefaultPageLayout from '../layouts/default.astro'
+import RecentPosts from '../components/astro/RecentPosts.astro';
+
+const allPosts = await Astro.glob('./blogs/*.md');
+
+---
+
+<DefaultPageLayout>
+    <RecentPosts posts={ allPosts } />
+</DefaultPageLayout>

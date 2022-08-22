@@ -38,7 +38,7 @@ const {content} = Astro.props
 
     </style>
     <div class="dark:text-white">
-        <Image class="rounded-md mb-10" src='/images/OBJECTS.jpg' width={768} aspectRatio={16/9} format="avif"/>
+        <Image class="rounded-md mb-10" src={content.coverImage} width={768} aspectRatio={16/9} format="avif"/>
         <h1 class="text-orange-500 text-4xl font-semibold mb-4">{content.title}</h1>
         <small>{content.author}, {content.publishDate}</small>
         <article class="blog">

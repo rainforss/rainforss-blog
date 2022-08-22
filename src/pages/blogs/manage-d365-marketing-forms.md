@@ -4,6 +4,7 @@ coverImage: "/src/images/manage-marketing-form.png"
 title: "Manage your Dynamics 365 Marketing Forms properly"
 description: "If you have used the marketing form designer provided by D365 Marketing, you probably know about - or have already complained about its lack of configurability for styling. Yes you can configure the form's layout, font size, text alignment, text color and paddings for form elements but these functionalities can barely make a web form which is no where near perfect."
 publishDate: "14 August 2022"
+pubDate: "14 August 2022"
 author: "Jake Chen"
 ---
 

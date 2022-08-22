@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { RiSunFill, RiMoonFill } from "react-icons/ri";
+import { RiSunFill, RiMoonFill } from "react-icons/ri/index";
 
 interface IModeToggleButtonProps {}
 

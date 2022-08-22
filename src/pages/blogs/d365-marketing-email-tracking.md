@@ -4,6 +4,7 @@ coverImage: "/src/images/marketing-email-tracking.jpg"
 title: "D365 Marketing Email and Website Tracking"
 description: "website tracking can bring you very detailed information about visitors' interactions but not the individual visitor while by email tracking you know the exact person (because you have the person's email hence the contact record) who interacted with your marketing email but you will not be able to know if a user clicks on a paragraph or a heading of your email content."
 publishDate: "3 May 2022"
+pubDate: "3 May 2022"
 author: "Jake Chen"
 ---
 

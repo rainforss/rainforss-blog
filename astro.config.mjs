@@ -16,4 +16,9 @@ export default defineConfig({
     },
   },
   site: "https://rainforss.me",
+  vite: {
+    ssr: {
+      external: ["svgo"],
+    },
+  },
 });

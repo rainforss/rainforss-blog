@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/post.astro"
-coverImage: "/src/images/powerapps-portal-pricing.png"
+coverImage: "/images/powerapps-portal-pricing.png"
 title: "Is the Power Apps Portal a viable option as your customer facing website?"
 description: "Microsoft has always been promoting the Power Apps Portal (previously Dynamics Portal) as a 'no-code' solution for external facing websites.Together with the naming change, the pricing model of this Microsoft product has also seen significant changes."
 publishDate: "21 June 2022"

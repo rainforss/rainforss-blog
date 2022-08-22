@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/post.astro"
-coverImage: "/src/images/redis-cloud-pricing.png"
+coverImage: "/images/redis-cloud-pricing.png"
 title: "Using Redis Cloud in your NextJS application"
 description: "Things are very different if you are using Redis Enterprise Cloud in a NextJS application and having your backend services orchestrated using the Serverless Functions. If you do not understand the basics of NextJS and Serverless Functions enough, you would encounter this error and never understand the cause of it"
 publishDate: "21 June 2022"

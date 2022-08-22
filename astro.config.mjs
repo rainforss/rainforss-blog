@@ -15,10 +15,4 @@ export default defineConfig({
       theme: "monokai",
     },
   },
-  site: "https://rainforss.me",
-  vite: {
-    ssr: {
-      external: ["svgo"],
-    },
-  },
 });

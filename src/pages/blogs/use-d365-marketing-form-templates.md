@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/post.astro"
-coverImage: "/src/images/marketing-form-template.png"
+coverImage: "/images/marketing-form-template.png"
 title: "How to use D365 Marketing form templates the right way"
 description: "After some tinkering with form templates, a good portion of D365 Marketing users or even consultants would most likely give up trying to create scalable templates and seek help from the front-end developers. This is mostly due to the fact that element styles of the a form template would not be applied to new fields added if configured using the form designer."
 publishDate: "18 August 2022"

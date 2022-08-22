@@ -1,0 +1,48 @@
+---
+import DefaultPageLayout from './default.astro'
+import { Image } from '@astrojs/image/components'
+const {content} = Astro.props
+---
+
+
+<DefaultPageLayout>
+    <style is:global>
+        .blog p {
+            @apply my-8
+        }
+
+        .blog > p > img {
+            @apply mx-auto
+        }
+
+        .blog > p > a {
+            @apply text-orange-500 hover:underline
+        }
+
+        .blog > p > strong {
+            @apply text-purple-500
+        }
+
+        .blog > figcaption {
+            @apply text-center text-sm italic  mb-8
+        }
+
+        .blog > ul {
+            @apply mt-8 mb-2
+        }
+
+        .blog > ul > li > strong {
+            @apply text-orange-500
+        }
+
+
+    </style>
+    <div class="dark:text-white">
+        <Image class="rounded-md mb-10" src={import(content.coverImage)} width={768} aspectRatio={16/9} format="avif"/>
+        <h1 class="text-orange-500 text-4xl font-semibold mb-4">{content.title}</h1>
+        <small>{content.author}, {content.publishDate}</small>
+        <article class="blog">
+            <slot class="blog"/>
+        </article>
+    </div>
+</DefaultPageLayout>

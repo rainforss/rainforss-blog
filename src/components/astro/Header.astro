@@ -1,0 +1,46 @@
+---
+import {
+  RiGithubLine,
+  RiSearchLine,
+  RiLinkedinBoxFill
+} from "react-icons/ri";
+import ModeToggleButton from '../react/ModeToggleButton'
+---
+
+    <header class="w-full py-8">
+      <div class="text-black dark:text-white border-b border-slate-200 pb-4">
+        <p class="font-bold text-orange-500 first-letter:text-6xl text-5xl tracking-widest">
+          <a href="/">RAINFORSS</a>
+        </p>
+        <div class="w-full h-8 flex justify-between mt-2 text-xl tracking-widest">
+          <p>My random thoughts and tutorials</p>
+          <div class="flex items-center gap-2">
+            <button class="text-purple-500">
+              <RiSearchLine />
+            </button>
+
+            <a href="https://github.com/rainforss" class="text-slate-500">
+              <RiGithubLine />
+            </a>
+            <a href="https://www.linkedin.com/in/jake-chen-210818128/" class="text-[#0E76A8]">
+              <RiLinkedinBoxFill />
+            </a>
+            <ModeToggleButton client:visible />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul class="flex justify-between py-6 text-xl text-purple-600">
+          <li class="hover:underline">
+            <a href="/">Blogs</a>
+          </li>
+          <li class="hover:underline">
+            <a href="#">Social</a>
+          </li>
+          <li class="hover:underline">
+            <a href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Manage your Dynamics 365 Marketing Forms properly",
+    "description": "If you have used the marketing form designer provided by D365 Marketing, you probably know about - or have already complained about its lack of configurability for styling. Yes you can configure the form's layout, font size, text alignment, text color and paddings for form elements but these functionalities can barely make a web form which is no where near perfect.",
+    "type": "Blogs",
+    "url": "/blogs/manage-d365-marketing-forms"
+  },
+  {
+    "title": "Is the Power Apps Portal a viable option as your customer facing website?",
+    "description": "Microsoft has always been promoting the Power Apps Portal (previously Dynamics Portal) as a 'no-code' solution for external facing websites.Together with the naming change, the pricing model of this Microsoft product has also seen significant changes.",
+    "type": "Blogs",
+    "url": "/blogs/powerapps-portal-analyze"
+  },
+  {
+    "title": "D365 Marketing Email and Website Tracking",
+    "description": "Marketing plays a crucial role in the expansion and growth of a business and there has been a rise in popularity of the marketing automation tools/services. Serving marketing content to your target audience through your website or marketing email is only the beginning of the customer journey and implementing a personalized marketing strategy based on audience's reaction is most likely a more important piece of the puzzle. This is why the big wigs - D365 Marketing from Microsoft being one of them - of marketing automation tool/service providers offer both website traffic tracking and email tracking in their product bundle.",
+    "type": "Blogs",
+    "url": "/blogs/d365-marketing-email-tracking"
+  },
+  {
+    "title": "Using Redis Cloud in your NextJS application",
+    "description": "Things are very different if you are using Redis Enterprise Cloud in a NextJS application and having your backend services orchestrated using the Serverless Functions. If you do not understand the basics of NextJS and Serverless Functions enough, you would encounter this error and never understand the cause of it",
+    "type": "Blogs",
+    "url": "/blogs/redis-cloud-in-nextjs-app"
+  },
+  {
+    "title": "How to use D365 Marketing form templates the right way",
+    "description": "After some tinkering with form templates, a good portion of D365 Marketing users or even consultants would most likely give up trying to create scalable templates and seek help from the front-end developers. This is mostly due to the fact that element styles of the a form template would not be applied to new fields added if configured using the form designer.",
+    "type": "Blogs",
+    "url": "/blogs/use-d365-marketing-form-templates"
+  }
+]

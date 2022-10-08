@@ -4,7 +4,7 @@ const { post } = Astro.props;
 ---
 
 <div class="flex justify-start gap-6 w-[48em]">
-    <a href={post.url}><Image class="rounded-md" src={`https://rainforss-blog.vercel.app${post.frontmatter.coverImage}`} width={300} height={200} aspectRatio={16/9} format="avif" alt={post.frontmatter.title}/></a>
+    <a href={post.url}><Image class="rounded-md" src={`/images${post.frontmatter.coverImage}`} width={300} height={200} aspectRatio={16/9} format="avif" alt={post.frontmatter.title}/></a>
     <div class="w-[70%]">
         <h3 class="text-orange-500 text-lg font-semibold hover:underline"><a href={post.url}>{post.frontmatter.title}</a></h3>
         <p><small>{post.frontmatter.author},</small><small> {post.frontmatter.publishDate}</small></p>
